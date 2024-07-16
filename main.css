@@ -1,0 +1,116 @@
+/*Entire Body*/
+body {
+    margin: 0;
+    background: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://yt3.googleusercontent.com/yEeXtdlxA0n12EYAMVaD_t7XcbovTgL-iwNVADcvu9cwvdcU7rdWy7ye0HyT80MZdFnmSHC_Ew=w2276-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj);
+    background-repeat: repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    font-family: impact;
+  }
+  
+  /*Form*/
+  form {
+    text-align: left;
+    background-color: rgba(27, 27, 50, 0.8);
+    width: 80%;
+    opacity: 90%;
+    max-width: 100%;
+    min-width: 80%;
+    padding-bottom: 2em;
+    margin: 10 auto;
+    border-radius: 10px;
+  }
+  
+  textarea {
+    width: 95%;
+    margin: 10 10;
+  }
+  
+  #final-legend {
+    padding-left: 12
+  }
+  
+  #submit {
+    display: center;
+  }
+  
+  /*Title Area*/
+  h1, p {
+    text-align: center;
+  }
+  
+  p {
+    font-family: sans-serif;
+    font-style: italic;
+  
+  }
+  #title {
+    margin-bottom: 0;
+    margin-top: 1em;
+  }
+  
+  #description {
+    margin-top: 0;
+    margin-bottom: 2em;
+  }
+  
+  #fieldset1 {
+    border: none;
+     display: flex;
+    flex-direction: column;
+    display: block;
+    width: 100;
+  }
+  
+  #fieldset2 {
+    border: none;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #fieldset3 {
+    border: none;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #fieldset4 {
+    border: none;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    color: white;
+    background-color: rgb(0, 60, 255);
+    border-color: black;
+    min-width: 300px;
+  }
+  #youtube {
+    font-family: sans-serif;
+    font-weight: bold;
+    max-width: 80%;
+    text-align: center;
+    padding-top: 1em;
+    padding-left: 3em;
+  }
+   a {
+      color: rgb(150, 0, 255);
+    }
+    a:visted {
+      color: grey;
+    }
+    a:hover {
+      color: red;
+    }
+    a:active {
+      color: white;
+    }
+    /* Based Upon Freecodecamp Example */

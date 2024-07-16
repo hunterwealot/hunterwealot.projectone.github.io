@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Weird-World TV Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Weird-World TV Survey</h1>
+    <p id="description">Your Feedback helps Feed the Children (In addition to improving a comedic genius on the verge of perfection)</p>
+    <form id="survey-form">
+      <fieldset id="fieldset1">
+        <h3>Your Information:</h3>
+       <label id="name-label">Enter your name<input placeholder="Tu Numbre" id="name" type="text" required/></label>
+        <label id="email-label">Enter your email<input placeholder="Mail of Thy E" id="email" type="email" required/></label>
+        <label id="number-label">Enter your age<input placeholder="And the Lord Numbered their years to 120" id="number" type="number" min="3" max="3000" required/></label>
+        </fieldset>
+        <fieldset id="fieldset2">
+        <h3>The Important Stuff:</h3>
+       <label>Choose Which Name Best Encapsulates the Bizarreness of our Bro and Entertainer
+         <select id="dropdown">
+          <option>Select One (there can only be one...)</option>
+          <option>Weird Lu</option>
+          <option>Strange Stu</option> 
+          </select>
+        </label>
+      </fieldset>
+      <fieldset id="fieldset3">
+        <legend>His Most Comical Physical Trait</legend>
+        <div>
+          <input type="radio" id="His voice" value="His voice" name="group1"/>
+          <label for="His voice">His Voice</label>
+        </div>
+        <div>
+          <input type="radio" id="Hair" value="Hair" name="group1"/>
+          <label for="His hair">His Hair</label>
+        </div>
+          <div>
+          <input type="radio" id="Everything Associated With Neckline Up" value="Everything Associated With Neckline Up" name="group1"/>
+          <label for="Everything Associated With Neckline Up">Everything Associated With Neckline Up</label>
+        </div>
+      </fieldset>
+      <fieldset id="fieldset4">
+        <legend>His Best Secondary Name</legend>
+        <div>
+          <input type="checkbox" id="Lawson" value="Lawson" name="group1"/>
+          <label for="Lawson">Lawson</label>
+        </div>
+        <div>
+          <input type="checkbox" id="Elijah" value="Elijah" name="group1"/>
+          <label for="Elijah">Elijah</label>
+        </div>
+        <div>
+          <input type="checkbox" id="Babe" value="Babe" name="group1"/>
+          <label for="Babe">Babe</label>
+        </div>
+        <div>
+          <input type="checkbox" id="Broweenie" value="Broweenie" name="group1"/>
+          <label for="Broweenie">Broweenie</label>
+        </div>
+        <div>
+          <input type="checkbox" id="Babeooski" value="Babeooski" name="group1"/>
+          <label for="Babeooski">Babeooski</label>
+        </div>
+        <div>
+          <input type="checkbox" id="Poopsie" value="Poopsie" name="group1"/>
+          <label for="Poopsie">Poopsie</label>
+        </div>
+      </fieldset>
+      <legend id="final-legend">Any additional comments (remember, he has no feelings)</legend>
+      <textarea></textarea>
+      <input id="submit" type="submit"/>
+      <legend id="youtube">Can't Find What You've Searched Your Whole Life For? Well, <a href="https://www.youtube.com/@weirdworldtv27"/>Here It Is...</legend>
+    </form>
+  </body>
+</html>
